@@ -5,14 +5,39 @@
     <title>Nova Coffee - Du bon café à la bonne adresse</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/styles.css">
 
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
-    <h1>Nova Coffee</h1>
+<body class="font-sans">
+    <header class="bg-amber-950 text-white">
+        <div class="container mx-auto flex justify-between items-center p-4">
+            <a href="#" class="text-2xl font-bold">Nova Coffee</a>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="hover:text-amber-400 font-bold">Accueil</a></li>
+                    <li><a href="pages/services.html" class="hover:text-amber-400 font-bold">Services</a></li>
+                    <li><a href="pages/gallery.html" class="hover:text-amber-400 font-bold">Galerie</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="h-screen bg-cover bg-center bg-no-repeat flex justify-center items-center" style="background-image: url(src/img/nova-coffee-cover.jpg);">
+        <h1 class="text-5xl md:text-6xl font-bold text-white text-center drop_shadow-lg">Savoureux cafés pour tous les goûts</h1>
+    </section>
+    <section class="py-20 bg-amber-100">
+        <div class="container mx-auto text-center px-4">
+            <h2 class="text-4xl font-bold mb-10">A propos de nous !</h2>
+            <div class="md:flex md:item-center md:space-x-8">
+                <img class="md:w-1/2 rounded-lg mb-6 md:mb-0" src="src/img/nova-coffee-shop.jpg" alt="shop">
+                <p class=" text-xl leading-relaxed">Nova Coffee est une entreprise familiale dédiée à l'art du café. Fondée en 2010, nous nous efforçons de fournir des cafés de haute qualité tout en soutenant les producteurs locaux. Notre passion pour le café se reflète dans chaque tasse que nous servons, et nous sommes fiers de notre engagement envers la durabilité et l'éthique dans toutes nos pratiques commerciales.<br>
+                Que vous soyez un amateur de café ou simplement à la recherche d'un endroit convivial pour vous détendre, Nova Coffee est l'endroit idéal pour savourer une excellente tasse de café. Venez nous rendre visite et découvrez pourquoi nous sommes le choix préféré des amateurs de café dans la région.
+                </p>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
