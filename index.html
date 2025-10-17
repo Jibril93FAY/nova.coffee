@@ -20,7 +20,7 @@
                 <ul class="flex space-x-4">
                     <li><a href="#" class="hover:text-amber-400 font-bold">Accueil</a></li>
                     <li><a href="pages/services.html" class="hover:text-amber-400 font-bold">Services</a></li>
-                    <li><a href="pages/gallery.html" class="hover:text-amber-400 font-bold">Galerie</a></li>
+                    <li><a href="pages/galerie.html" class="hover:text-amber-400 font-bold">Galerie</a></li>
                 </ul>
             </nav>
         </div>
@@ -39,5 +39,57 @@
             </div>
         </div>
     </section>
+    <section class="py-5 bg-cover bg-center" style="background-image: url(src/img/nova-coffee-specialties.jpg);">
+        <div class="container mx-auto text-center text-white py-20 px-4">
+             <h2 class="text-4xl font-bold mb-10">Nos spécialités</h2>
+             <p class="text-2xl mb-10 font-bold">Chez Nova Coffee, nous proposons une variété de cafés pour satisfaire tous les palais. Voici quelques-unes de nos spécialités :</p>
+        </div>
+    </section>
+
+    <section class="py-10 bg-amber-100">
+    <div class="container mx-auto text-center py-20 px-4 bg-amber-100 grid md:grid-cols-2 gap-8">
+        <div class="bg-white rounded-lg shadow p-6 hover:scale-105 transform transition">
+            <h3 class="text-xl font-semibold mb-2">Café filtre</h3>
+            <p>Un café doux et aromatique, préparé avec soin pour révéler toutes ses saveurs.</p>
+        </div>
+        <div class="bg-white rounded-lg shadow p-6 hover:scale-105 transform transition">
+            <h3 class="text-xl font-semibold mb-2">Espressos</h3>
+            <p>Un café intense et corsé, parfait pour les amateurs de café fort.</p>
+        </div>
+        <div class="bg-white rounded-lg shadow p-6 hover:scale-105 transform transition">
+            <h3 class="text-xl font-semibold mb-2">Cappuccino</h3>
+            <p>Un mélange riche de café espresso, de lait chaud et de mousse de lait, garni d'une pincée de cacao.</p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow p-6 hover:scale-105 transform transition">
+            <h3 class="text-xl font-semibold mb-2">Latte</h3>
+            <p>Un mélange crémeux de café espresso et de lait chaud, garni d'une fine couche de mousse de lait.</p>
+        </div>
+    </div>
+    </section>
+    <section class="py-10 bg-amber-100 text-center px-4">
+        <div class="container mx-auto px-4 max-w-lg">
+            <h2 class="text-3xl font-bold mb-4 text-amber-950">Contactez-nous</h2>
+            <p>Adresse : 123 Rue du Café, Bambey, Sénégal</p>
+            <p>Téléphone : +221 763100011</p>
+            <p>Email : contact@novacoffee.sn</p>
+            <p class="mt-4">Nous serions ravis de vous entendre ! N'hésitez pas à nous contacter pour toute question ou demande spéciale.</p>
+            <form class="bg-amber-200 p-8 rounded-lg mt-6 shadow-md space-y-4">
+                <input placeholder="Nom & Prénom(s)" type="text" class="w-full p-3 border text-amber-950 border-amber-700 rounded">
+                <input placeholder="Email" type="email" class="w-full p-3 border text-amber-950 border-amber-700 rounded">
+                <textarea placeholder="Votre message" class="w-full p-3 h-32 border text-amber-950 border-amber-700 rounded" rows="4"></textarea>
+                <button type="submit" class="bg-amber-950 text-amber-100 font-bold px-4 py-2 rounded hover:bg-amber-700 cursor-pointer">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-amber-950 text-white py-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Nova Coffee. Tous droits réservés.</p>
+        </div>
+    </footer>
+    <button id="scrollToTopBtn" class="fixed hidden bottom-5 right-5 bg-amber-950 text-amber-100 font-bold px-4 py-2 rounded hover:bg-amber-700 cursor-pointer">&#8679;</button>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
