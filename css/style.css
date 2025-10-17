@@ -3,13 +3,8 @@ body {
   font-weight: 400;
   font-style: normal;
 }
-
-.brown-back {
-  background-color: #dab785;
-}
-.beige-back {
-  background-color: #F5EBDD;
-}
-.brown-text {
-  color: #6B4226;
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
